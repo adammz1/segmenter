@@ -2,8 +2,7 @@
 dataset_type = "CustomDataset"
 data_root = "datasets/JE"
 img_norm_cfg = dict(
-    mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True
-)
+    mean=[86.55, 86.55, 86.55], std=[38.04, 38.04, 38.04], to_rgb=True)
 crop_size = (512, 512)
 max_ratio = 4
 train_pipeline = [

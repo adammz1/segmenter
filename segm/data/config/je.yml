@@ -1,42 +1,49 @@
 - color:
   - 255
-  - 0
-  - 0
+  - 255
+  - 255
   id: 0
+  isthing: 0
+  name: background
+- color:
+  - 255
+  - 0
+  - 0
+  id: 1
   isthing: 0
   name: chip
 - color:
   - 0
   - 255
   - 0
-  id: 1
+  id: 2
   isthing: 0
   name: crack
 - color:
   - 0
   - 0
   - 255
-  id: 2
+  id: 3
   isthing: 0
   name: grinding
 - color:
   - 128
   - 128
   - 128
-  id: 3
+  id: 4
   isthing: 0
   name: contamination
 - color:
   - 255
   - 255
   - 0
-  id: 4
+  id: 5
   isthing: 0
   name: dent
 - color:
   - 0
   - 255
   - 255
-  id: 5
+  id: 6
   isthing: 0
   name: sticky
