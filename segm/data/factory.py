@@ -5,6 +5,7 @@ from segm.data import ADE20KSegmentation
 from segm.data import PascalContextDataset
 from segm.data import CityscapesDataset
 from segm.data import Loader
+from segm.data import CustomDataset
 
 
 def create_dataset(dataset_kwargs):
@@ -24,6 +25,8 @@ def create_dataset(dataset_kwargs):
         dataset = PascalContextDataset(split=split, **dataset_kwargs)
     elif dataset_name == "cityscapes":
         dataset = CityscapesDataset(split=split, **dataset_kwargs)
+    elif dataset_name == 'je':
+        dataset = CustomDataset(split=split, **dataset_kwargs)
     else:
         raise ValueError(f"Dataset {dataset_name} is unknown.")
 
